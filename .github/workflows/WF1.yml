@@ -16,4 +16,4 @@ jobs:
     - name: start build script
       run: |
         sudo chmod +x main-ubuntu.sh
-        ./main-ubuntu.sh > log
+        sudo ./main-ubuntu.sh > log
