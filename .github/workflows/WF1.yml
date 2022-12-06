@@ -8,12 +8,6 @@ jobs:
     timeout-minutes: 9999
 
     steps:
-#     - name: setup python
-#       uses: actions/setup-python@v2
-#       with:
-#         python-version: 3.8
-#     - name: install python requirements
-#       run: pip install requests
     - name: checkout repo content
       uses: actions/checkout@v2
       with:
